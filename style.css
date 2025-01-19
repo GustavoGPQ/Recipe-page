@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ body{ 
+        background-color: hsl(30, 54%, 90%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 50px;
+        font-family: 'Arial', sans-serif;
+ }
+
+ main{
+    background-color: white;
+    padding: 60px;
+    max-width: 850px;
+    border-radius: 20px;
+ }
+
+ main img{
+    max-width: 850px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+ }
+
+main h1{
+    margin-bottom: 30px;
+    font-size: 3.3rem;
+}
+
+#inicio p{
+    color:  hsl(30, 10%, 34%);
+    font-weight: bold;
+    width: 60rem;
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+}
+
+.first-sentence {
+    width: 50rem;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+
+.preparation p{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 20px;
+    margin-right: 300px;
+    font-size: 1.6rem;
+}
+
+.preparation{
+    background-color:  hsl(330, 100%, 98%);
+    margin-bottom: 60px;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 850px;
+}
+
+.preparation ul, li{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    list-style-position: outside;
+    padding-left: 15px;
+    
+}
+
+span{
+    font-weight: bold;
+}
+
+.Ingredients h1 {
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+}
+
+.Ingredients {
+    padding: 0px;
+    max-width: 850px;
+    margin-bottom: 90px;
+}
+
+.Ingredients li{
+    font-size: 1.27rem;
+}
+
+
+.Ingredients ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+hr{
+    margin-bottom: 70px;
+    color:#ccc;
+}
+
+.instructions h1{
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+}
+
+.nutrition h2{
+    margin-bottom: 10px;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+.nutrition td {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+  
+.nutrition tr:last-child td {
+    border-bottom: none;
+}
+  
+.nutrition .p-bold {
+    font-weight: bold;
+}
+  
+.nutrition p {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+
