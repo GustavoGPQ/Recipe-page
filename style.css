@@ -35,10 +35,15 @@ body{
     margin-bottom: 20px;
 }
 .titulo p{
-    font-size: 1.4rem;
-    color:  hsl(30, 10%, 34%);
-    font-weight: bold;''
-}
+  
+        font-size: 1.4rem; /* Ou ajuste conforme necessário */
+        color: hsl(30, 10%, 34%);
+        font-weight: bold;
+        font-family: 'Cormorant Garamond', serif; /* Exemplo de fonte semelhante */
+        line-height: 1.6; /* Para espaçamento entre linhas */
+        margin-bottom: 20px; /* Para espaçamento adequado */
+    } 
+
 
 .preparacao{
     background-color:   hsl(330, 100%, 98%);
@@ -143,4 +148,11 @@ table {
   }
 
 
- 
+  ul li::marker {
+    color: hsl(332, 51%, 32%); 
+}
+
+.nutrition span{
+    color:hsl(332, 51%, 32%) ;
+    font-weight: bold;
+}
